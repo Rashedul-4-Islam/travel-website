@@ -154,11 +154,21 @@ ul li a{
 
 /* responsive for mobile  */
 @media only screen and (max-width:568px){
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .image img{
+        width: 100%;
+    }
     .nav-item{
         display: none;
     }
     .navbar{
         flex-direction: column;
         justify-content: center;
+    }
+    .sector-2, .destination, .transit, .subscribe, .helpline{
+        width: 100%;
     }
 }
